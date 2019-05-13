@@ -26,6 +26,15 @@
 	my_list = [1, 3, "Michele", [5, 6, 7]]
 	for element in my_list:
   	print(element)
+	a = [5,10,15,20,25,30,35,40,[1,2,3,4]]
+	print(a)
+	print("a[2] = ", a[2])
+	print("a[0:2] = ", a[0:2])
+	print("a[5:] = ", a[5:])
+	print("a[:5] = ", a[:5])
+	print(a[::-1])
+	print("a[8][3] = ", a[8][3])
+	
 5)array filter
 	a = [1, 1, 2, 3, 45, 18, 113, 21, 34, 55, 89]
 	user =int(input("Enter number: "))
@@ -101,3 +110,21 @@
 	print(numbers)
 	print(alphabets)
 	print(vowels)
+14) variable type
+	a =  1+2j
+	b=5
+	c="hello"
+	print(a, "is of type", type(a))
+	print(a, "is of type",  isinstance(a,float))
+	print(b, "is of type", type(b))
+	print(b, "is of type",  isinstance(b,int))
+	print(c, "is of type", type(c))
+	print(c, "is of type",  isinstance(c,complex))
+	print(c, "is of type", type(c))
+	print(c, "is of type",  isinstance(c,str))
+15) Tuple
+	t = (5,'program', 1+3j,3.5)
+	print("t[1] = ", t[1],type(t[1]))
+	print("t[0:3] = ", t[0:3],type(t[2]))
+	print(t[3],type(t[3]),  isinstance(t[3],float))
+
